@@ -1,0 +1,34 @@
+.position {
+  display: flex;
+  justify-content: center;
+}
+
+.fon {
+  width: 800px;
+  height: 100vh;
+  background-image: url(assets/светлая_тема.jpg);
+  background-size: cover;
+  color: black;
+  display: flex;
+  align-items: end;
+}
+
+.fon-message {
+  border: 2px solid black;
+  background-color: burlywood;
+}
+
+.interactive-element {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.text-box {
+  width: 80%;
+}
+
+.action:hover {
+background-color: aquamarine;
+}
