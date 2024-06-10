@@ -7,22 +7,48 @@
   <title>Chat</title>
   <link rel="icon" href="assets/chat-logo.jpg">
   <link rel="stylesheet" href="chat.css">
+  <link rel="stylesheet" href="resets.css">
 </head>
 
 <body>
-  <div class="position">
-    <div class="fon">
-      <p></p>
-      <div class="fon-message">
-        <p class="nick"></p>
-        <p class="text"></p>
+  <div class="settings-list">
+    <div class="drop-down-list-style">
+      <label for="theme-list">Choose color theme</label>
+      <select class="theme" id="theme-list">
+        <option value="themeDrops" class="option">
+          drops of water
+        </option>
+        <option value="themePink" class="option">
+          pink
+        </option>
+        <option value="themeGold" class="option">
+          gold
+        </option>
+      </select>
+    </div>
+    <button class="exitbtn" id="Exit">Exit</button>
+  </div>
+
+  <div class="fon-chat">
+    <div>
+      <div class="font-message">
+        <p class="nick">Sasha</p>
+        <p class="text-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, recusandae
+          repellat. Asperiores totam expedita eligendi at in repellat laudantium corporis, fuga nam ad commodi. Error
+          sed dolor ratione recusandae aut!</p>
       </div>
-        <div class="interactive-element">
-          <input type="text" class="text-box">
-          <button class="action">Sent message</button>
-        </div>
+      <div class="font-message">
+        <p class="nick">Sasha</p>
+        <p class="text-message">Lorem ipsum dolor sit amet.</p>
+    </div>
+    </div>
+    <div class="interactive-element">
+      <input type="text" class="text-box">
+      <button class="sentbtn" id="Sent">Sent</button>
     </div>
   </div>
+
+  <script src="main.js"></script>
 </body>
 
 </html>
